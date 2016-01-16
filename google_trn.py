@@ -2,7 +2,7 @@ __author__ = 'AmirPouya'
 import goslate
 import sys,argparse
 import io
-parser=argparse.ArgumentParser('python LDC2XML.py')
+parser=argparse.ArgumentParser('python')
 parser.add_argument('--input','-i',required=True)
 parser.add_argument('--output','-o',required=True)
 parser.add_argument('--lang','-l',required=True)
